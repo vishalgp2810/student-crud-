@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack --env.environment=production --config webpack.config.js",
-    "dev": "webpack --env.environment=development --config webpack.config.js",
-    "devserver": "webpack-dev-server --env.environment=development --config webpack.config.js",
+    "dev": "webpack-dev-server --env.environment=development --config webpack.config.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
